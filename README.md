@@ -35,7 +35,7 @@ git操作：
 >
 >git push							 ||将文件上传至云端
 
-git@github.com:CXL-edu/AutoEncoder-CNN-LSTM--to-prediction-battery-RUL.git
+
 
 
 
