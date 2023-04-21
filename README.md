@@ -85,7 +85,7 @@ git操作：
 # 在命令中加入用户名和密码，即可克隆私有仓库，命令如下
 # git clone https://username:password@github.com/username/repo_name.git
 
-# !git clone https://CXL-edu:cxl124572@github.com/CXL-edu/test1.git
+# !git clone https://CXL:mima123@github.com/CXL-edu/test1.git
 # remote: Support for password authentication was removed on August 13, 2021. 
 # Please use a personal access token instead.
 
