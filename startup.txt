@@ -1,0 +1,10 @@
+::Move the script file to path a, and note that this path is the boot path under Windows.
+::C:\Users\13519\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+
+::Then add the absolute path of the exe before the file name. 
+::The following is an example. Please change the path to the one on your own computer.
+::start F:\Desktop\CSU-WIFI\CSU-WIFI-AutoConnect.exe
+
+::Finally, please change the txt suffix of the script to the bat suffix.
+
+start CSU-WIFI-AutoConnect.exe
