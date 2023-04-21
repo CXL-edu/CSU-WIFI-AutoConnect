@@ -7,6 +7,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.keys import Keys
 
+
 class auto_wifi():
     def __init__(self, wifi_name: str, url: str, username: str, password: str):
         self.wifi_name = wifi_name
@@ -19,31 +20,27 @@ class auto_wifi():
                                            r'Software\Microsoft\Windows\CurrentVersion\Internet Settings',
                                            0, winreg.KEY_ALL_ACCESS)
 
-
     @staticmethod
     def check_internet():
         # Check the response status code
         try:
-            response = requests.get('https://m.baidu.com/#', timeout=5)
+            response = requests.get('https://www.baidu.com/', timeout=30)
+            print('response.status_code:', response.status_code)
             return response.status_code == 200  # The current WiFi can connect to the internet.
         except:
             return False
 
-
     def check_wifi(self):
         return self.wifi_name.encode() in subprocess.check_output("netsh wlan show interfaces")
 
-
     def connect_wifi(self):
         subprocess.check_output(f"netsh wlan connect name={self.wifi_name}")
-
 
     def disable_proxy(self):
         # Check if the proxy is enabled
         if winreg.QueryValueEx(self.internet_settings, 'ProxyEnable'):
             # Disable the proxy
             winreg.SetValueEx(self.internet_settings, 'ProxyEnable', 0, winreg.REG_DWORD, 0)
-
 
     def login(self):
         # 创建一个Service对象
@@ -73,13 +70,12 @@ class auto_wifi():
         # driver.quit()
 
 
-
 # 主程序
 if __name__ == "__main__":
     wifi_name = "CSU-WIFI" # "Redmi K40 Pro+"
     url = "https://portal.csu.edu.cn/"  # 校园网登录网址
-    username = "214711105"  # 校园网账户
-    password = "cxl124572"  # 校园网密码
+    username = "账户"  # 校园网账户
+    password = "密码"  # 校园网密码
     auto_wifi = auto_wifi(wifi_name, url, username, password)
 
     while True:
@@ -92,6 +88,5 @@ if __name__ == "__main__":
                 auto_wifi.login()
         except Exception as e:
             print(e)
-            time.sleep(10)
-        time.sleep(10)
+        time.sleep(60)
 
