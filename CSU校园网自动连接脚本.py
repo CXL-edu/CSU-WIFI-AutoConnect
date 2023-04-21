@@ -1,3 +1,8 @@
+"""
+author: 陈晓龙
+date: 2021-05-20
+description: 用于自动连接CSU校园网的脚本
+"""
 import time
 import winreg
 import requests
