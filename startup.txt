@@ -7,4 +7,7 @@
 
 ::Finally, please change the txt suffix of the script to the bat suffix.
 
+::Due to different computer environments, bat files may not run on the computer being used. 
+::The modified exe file shortcut can be directly placed in the startup path for execution without the need for a bat file.
+
 start CSU-WIFI-AutoConnect.exe
