@@ -4,6 +4,11 @@
 
 该脚本通过检查服务器是否联网，若未连网，连接到校园网，并自动输入存储的校园网账号和密码进行登录。
 
+exe文件可能由于编译时受限于路径，导致无法直接运行，可在本地使用pyinstaller库进行重新编译
+```python
+pip install pyinstaller
+pyinstaller CSU-WIFI-AutoConnect.py
+```
 
 
 git操作：

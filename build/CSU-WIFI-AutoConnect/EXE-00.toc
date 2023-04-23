@@ -1,5 +1,4 @@
-('C:\\Users\\TRY '
- '7110\\Desktop\\CSU-WIFI-AutoConnect\\build\\CSU-WIFI-AutoConnect\\CSU-WIFI-AutoConnect.exe',
+('D:\\CXL\\CSU-WIFI-AutoConnect\\build\\CSU-WIFI-AutoConnect\\CSU-WIFI-AutoConnect.exe',
  True,
  False,
  True,
@@ -14,31 +13,24 @@
  None,
  None,
  None,
- 'C:\\Users\\TRY '
- '7110\\Desktop\\CSU-WIFI-AutoConnect\\build\\CSU-WIFI-AutoConnect\\CSU-WIFI-AutoConnect.pkg',
+ 'D:\\CXL\\CSU-WIFI-AutoConnect\\build\\CSU-WIFI-AutoConnect\\CSU-WIFI-AutoConnect.pkg',
  [('PYZ-00.pyz',
-   'C:\\Users\\TRY '
-   '7110\\Desktop\\CSU-WIFI-AutoConnect\\build\\CSU-WIFI-AutoConnect\\PYZ-00.pyz',
+   'D:\\CXL\\CSU-WIFI-AutoConnect\\build\\CSU-WIFI-AutoConnect\\PYZ-00.pyz',
    'PYZ'),
   ('struct',
-   'C:\\Users\\TRY '
-   '7110\\Desktop\\CSU-WIFI-AutoConnect\\build\\CSU-WIFI-AutoConnect\\localpycs\\struct.pyc',
+   'D:\\CXL\\CSU-WIFI-AutoConnect\\build\\CSU-WIFI-AutoConnect\\localpycs\\struct.pyc',
    'PYMODULE'),
   ('pyimod01_archive',
-   'C:\\Users\\TRY '
-   '7110\\Desktop\\CSU-WIFI-AutoConnect\\build\\CSU-WIFI-AutoConnect\\localpycs\\pyimod01_archive.pyc',
+   'D:\\CXL\\CSU-WIFI-AutoConnect\\build\\CSU-WIFI-AutoConnect\\localpycs\\pyimod01_archive.pyc',
    'PYMODULE'),
   ('pyimod02_importers',
-   'C:\\Users\\TRY '
-   '7110\\Desktop\\CSU-WIFI-AutoConnect\\build\\CSU-WIFI-AutoConnect\\localpycs\\pyimod02_importers.pyc',
+   'D:\\CXL\\CSU-WIFI-AutoConnect\\build\\CSU-WIFI-AutoConnect\\localpycs\\pyimod02_importers.pyc',
    'PYMODULE'),
   ('pyimod03_ctypes',
-   'C:\\Users\\TRY '
-   '7110\\Desktop\\CSU-WIFI-AutoConnect\\build\\CSU-WIFI-AutoConnect\\localpycs\\pyimod03_ctypes.pyc',
+   'D:\\CXL\\CSU-WIFI-AutoConnect\\build\\CSU-WIFI-AutoConnect\\localpycs\\pyimod03_ctypes.pyc',
    'PYMODULE'),
   ('pyimod04_pywin32',
-   'C:\\Users\\TRY '
-   '7110\\Desktop\\CSU-WIFI-AutoConnect\\build\\CSU-WIFI-AutoConnect\\localpycs\\pyimod04_pywin32.pyc',
+   'D:\\CXL\\CSU-WIFI-AutoConnect\\build\\CSU-WIFI-AutoConnect\\localpycs\\pyimod04_pywin32.pyc',
    'PYMODULE'),
   ('pyiboot01_bootstrap',
    'd:\\cxl\\venv\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
@@ -50,13 +42,12 @@
    'd:\\cxl\\venv\\lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
   ('CSU-WIFI-AutoConnect',
-   'C:\\Users\\TRY '
-   '7110\\Desktop\\CSU-WIFI-AutoConnect\\CSU-WIFI-AutoConnect.py',
+   'D:\\CXL\\CSU-WIFI-AutoConnect\\CSU-WIFI-AutoConnect.py',
    'PYSOURCE')],
  [],
  False,
  False,
- 1682235576,
+ 1682241061,
  [('run.exe',
    'd:\\cxl\\venv\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
    'EXECUTABLE')])

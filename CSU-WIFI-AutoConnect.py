@@ -83,8 +83,8 @@ class auto_wifi():
 if __name__ == "__main__":
     wifi_name = "CSU-WIFI" # "Redmi K40 Pro+"
     url = "https://portal.csu.edu.cn/"  # 校园网登录网址
-    username = "账号"  # 校园网账户
-    password = "密码"  # 校园网密码
+    username = "214711105"  # 校园网账户
+    password = "cxl124572"  # 校园网密码
     auto_wifi = auto_wifi(wifi_name, url, username, password)
 
     print('https://github.com/CXL-edu/CSU-WIFI-AutoConnect.git\n'

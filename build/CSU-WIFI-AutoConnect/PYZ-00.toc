@@ -1,5 +1,4 @@
-('C:\\Users\\TRY '
- '7110\\Desktop\\CSU-WIFI-AutoConnect\\build\\CSU-WIFI-AutoConnect\\PYZ-00.pyz',
+('D:\\CXL\\CSU-WIFI-AutoConnect\\build\\CSU-WIFI-AutoConnect\\PYZ-00.pyz',
  [('__future__', 'D:\\Python37\\lib\\__future__.py', 'PYMODULE'),
   ('_compat_pickle', 'D:\\Python37\\lib\\_compat_pickle.py', 'PYMODULE'),
   ('_compression', 'D:\\Python37\\lib\\_compression.py', 'PYMODULE'),
